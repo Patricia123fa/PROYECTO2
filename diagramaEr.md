@@ -22,7 +22,7 @@ erDiagram
         int id_valoracion
         int usuario
         string comentario
-        date puntuacion
+        int puntuacion
     }
     MAPA {
         int id_mapa
@@ -34,10 +34,10 @@ erDiagram
         string nombre
         string tipo
         string descripcion
-        int coordenada
+        double coordenada
     }
     COORDENADA {
-        int id_coordenada
+        double id_coordenada
         double latitud
         double longitud
     }
